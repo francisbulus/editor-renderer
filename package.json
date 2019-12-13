@@ -16,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/fosterferret/editor-renderer/issues"
   },
-  "homepage": "https://github.com/fosterferret/editor-renderer#readme"
+  "homepage": "https://github.com/fosterferret/editor-renderer#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-html-parser": "^2.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-plugin-react": "^7.17.0"
+  }
 }
