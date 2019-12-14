@@ -14,11 +14,11 @@ const Table = data => {
           <tr key={index}>
             {Array.isArray(row) &&
               row.length > 1 &&
-              row.map((value, index) => (
+              row.map((column, index) => (
                 <td key={index} className="tc-table__cell">
                   <div className="tc-table__area">
                     <div className="tc-table__inp">
-                      {ReactHtmlParser(value)}
+                      {ReactHtmlParser(column)}
                     </div>
                   </div>
                 </td>
