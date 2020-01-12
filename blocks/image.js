@@ -12,7 +12,7 @@ const ImageOutput = data => {
   return (
     <div className="cdx-block cdx-simple-image">
       <div className="cdx-simple-image__picture">
-        <img src={data.file.url} alt={data.caption || ""} style={imageStyle} />
+        <img src={data.file.url} alt={data.caption || ""} />
       </div>
       {data.caption && (
         <figcaption style={captionStyle}>
